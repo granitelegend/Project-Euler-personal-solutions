@@ -1,13 +1,14 @@
 # Project Euler Problem 1
 
-multiplesList = []
+multiplesList = []  # Create empty list
 
-intList = list(range(1, 1000))
+intList = list(range(1, 1000))  # Create list of numbers between 1 and 1000
+
 for x in intList:
-    if x % 3 == 0 or x % 5 == 0:
-        multiplesList.append(x)
+    if x % 3 == 0 or x % 5 == 0:  # Check every number in list if they satisfy conditions
+        multiplesList.append(x)  # Adds the number to empty list
         continue
     else:
         continue
 
-print(sum(multiplesList))
+print(sum(multiplesList))  # Prints the sum of all multiples of 3 and 5 of every number between 1 and 1000
