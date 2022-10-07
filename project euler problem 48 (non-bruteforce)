@@ -13,9 +13,9 @@ for x in range(1, 1001):  # Sum of series
 strSum = str(sumSeries)  # Converting sum to string
 a = len(strSum) - 1
 
-while a != len(strSum) - 11:
-    digitList.append(strSum[a])
+while a != len(strSum) - 11:  # Stop when having iterated 10 digits
+    digitList.append(strSum[a])  # Creating the list of the last 10 digits in incorrect order
     a -= 1
 
-digitList.reverse()
+digitList.reverse()  # Correction of the order of the last 10 digits.
 print(digitList)
