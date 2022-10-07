@@ -1,7 +1,7 @@
 # Project Euler Problem 48
 
 # The idea is to produce the sum as a number and then convert and interate the number to a string from the end to start.
-# This will produce a reverse list of digits, which is then reversed to produce the correct order.
+# This will produce a reverse list of digits, which is then reversed to produce the preferred order of digits.
 
 sumSeries = 0
 a = 0
