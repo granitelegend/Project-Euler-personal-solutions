@@ -58,7 +58,7 @@ def greatest_product_in_string(num):
 
         numberDict.update({int(temp_number):int(product_of_numbers)})
 
-    for key in numberDict.keys():  # Checls for key that results in largest product
+    for key in numberDict.keys():  # Checks for key that results in largest product
         if numberDict[key] == max(list_of_products):
             greatest_product = key
             break
